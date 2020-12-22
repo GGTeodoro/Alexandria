@@ -1,0 +1,47 @@
+O HTML é uma das duas pedras fundamentais no desenvolvimento web, que te permitem criar páginas web do zero 
+e são utilizadas como base para inúmeras outras tecnologias de desenvolvimento web.
+
+Você pode pensar no HTML como se fosse o esqueleto da sua página, que define todos os elementos que vão ser
+renderizados na tela do usuários.
+
+TAGS mais utilizadas :
+
+    TAGS estruturais 
+
+        <!DOCTYPE> - Todos os documentos HTML devem iniciar com essa tag, para dizer para o navegador que
+        tipo de documento ele esta interagindo. deve ser utilizada da seguinte forma:
+            <!DOCTYPE "tipoDeDocumento"> como em <!DOCTYPE html>
+
+        <article></article> - Determina um conteúdo independente e que tem sentido por si só, utilizando de
+        outras tags de construção.
+
+        <aside></aside> - Cria uma área lateral a outras tags, que também se utiliza de outras tags de
+        construção
+
+        <body></body> - Determina o corpo do documento que será exibido, englobando outras tags estruturais
+        [ article, aside, footer, header, section ] e todas as tags de contrução, só pode haver uma tag
+        body por documento HTML.
+
+        <footer></footer> - Cria um conteiner para preenchimento no final do documento HTML, que geralmente
+        possui [ "informação do autor", "informação de copyright", "informação de contato", "mapa do site",
+            "links de conteúdos da página", "documentos relacionados" ]
+
+        <head></head> - Responsável por conteiner informações de data e lógica, geralmente é colocado entre a
+        abertura do html e a tag do body. Algumas tags podem vir dentro do head, que podem ser vistas na
+        lista [ title, style, base, link, meta, script] 
+
+        <header></header> - Cria um conteiner 
+        <html></html>
+        <script></script>
+        <section></section>
+
+
+<a></a> - Determina um hiperLink que utiliza do atributo href para indicar qual rota deve ser enviado, os
+atributos mais utilizados são:
+    nome: download - valor: nome do arquivo que sera baixado
+    name: href - valor: a URL da página que será aberta
+    name: target - valor: [ _blank - abre em uma nova aba, _self - é o padraõ quando não definido abrindo a nova
+    página na mesma aba, _parent - abre em uma outra aba já aberta no navegador]
+Deve ser utilizada da seguinte forma:
+<a href="URL" target="opção de abertura">"Texto exibido no link"</a>
+<a href="https://www.w3schools.com" target="_blank">Visit W3Schools</a>
