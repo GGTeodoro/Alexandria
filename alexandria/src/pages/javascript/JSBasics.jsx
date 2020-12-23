@@ -102,8 +102,8 @@ const JSBasics = () => {
         <h4>Loop For</h4>
         <p>Loops ajudam com funções / ações que serão repetidas várias vezes.</p>
         <img className="mx-auto m-2" width="400px" src={forImg} alt="for loop example" />
-        <img className="mx-auto m-2" width="400px" src={forInImg} alt="for loop example" />
-        <img className="mx-auto m-2" width="400px" src={forOfImg} alt="for loop example" />
+        <img className="mx-auto m-2" width="400px" src={forInImg} alt="forIn loop example" />
+        <img className="mx-auto m-2" width="400px" src={forOfImg} alt="forOf loop example" />
       </article>
 
       <article className="card w-75 mx-auto p-2 m-3">
@@ -113,16 +113,16 @@ const JSBasics = () => {
         <p>sum(4, 8)</p>
         <p>// 12</p>
 
-        <img className="m-2 mx-auto" width="400px" src={functionImg} alt="for loop example" />
+        <img className="m-2 mx-auto" width="400px" src={functionImg} alt="function example" />
       </article>
 
       <article className="card w-75 mx-auto p-2 m-3">
         <h4>Condicionais</h4>
         <h6>IF ELSE</h6>
-        <img className="m-2 mx-auto" width="400px" src={ifelseImg} alt="for loop example" />
-        <img className="m-2 mx-auto" width="400px" src={ifelseifImg} alt="for loop example" />
+        <img className="m-2 mx-auto" width="400px" src={ifelseImg} alt="if example" />
+        <img className="m-2 mx-auto" width="400px" src={ifelseifImg} alt="if else example" />
         <h6>SWITCH CASE</h6>
-        <img className="m-2 mx-auto" width="400px" src={switchImg} alt="for loop example" />
+        <img className="m-2 mx-auto" width="400px" src={switchImg} alt="switch case example" />
       </article>
 
       <p>Bloco 4 e Bloco 5</p>
