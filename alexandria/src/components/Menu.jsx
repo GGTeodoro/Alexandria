@@ -48,9 +48,9 @@ const Menu = (props) => {
                 Javascript
              </Link>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><Link class="dropdown-item" to="/">Action</Link></li>
-                <li><Link class="dropdown-item" to="/css">Another action</Link></li>
-                <li><Link class="dropdown-item" to="/bootstrap">Something else here</Link></li>
+                <li><Link class="dropdown-item" to="/javascript">JavaScript - Basics</Link></li>
+                <li><Link class="dropdown-item" to="/javascript/hofs">JavaScript - ES6/7</Link></li>
+                <li><Link class="dropdown-item" to="/javascript/promises">JavaScript - Promises</Link></li>
               </ul>
             </li>
             <li class="nav-item dropdown">
