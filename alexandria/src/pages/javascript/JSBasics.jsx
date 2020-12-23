@@ -36,7 +36,11 @@ const JSBasics = () => {
       <article className="card w-75 mx-auto p-2 m-3">
         <p>
           O JavaScript é a linguagem mais popular do mundo segundo o{' '}
-          <a target="_blank" href="https://insights.stackoverflow.com/survey/2019#technology">
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://insights.stackoverflow.com/survey/2019#technology"
+          >
             Stack Overflow
           </a>
           , além de ser utilizada em diversos contextos, faz páginas em toda a web terem
@@ -48,7 +52,7 @@ const JSBasics = () => {
         </p>
         <p>
           Para instalar o Node entre no{' '}
-          <a href="https://nodejs.org/en/" target="_blank">
+          <a href="https://nodejs.org/en/" rel="noreferrer" target="_blank">
             site oficial
           </a>{' '}
           e faça o download seguindo as instruções.
@@ -92,7 +96,7 @@ const JSBasics = () => {
         <p>Alguns exemplos incluem, + , - , >=, ou (||) , e (and &&), entre outros.</p>
         <p>
           Link para Operadores do JavaScript -
-          <a href="https://www.w3schools.com/js/js_operators.asp" target="_blank">
+          <a href="https://www.w3schools.com/js/js_operators.asp" rel="noreferrer" target="_blank">
             Aqui
           </a>
         </p>
