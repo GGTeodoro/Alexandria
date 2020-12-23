@@ -1,4 +1,11 @@
 import React from 'react';
+import forImg from '../../images/for_img.png';
+import forInImg from '../../images/forin_img.png';
+import forOfImg from '../../images/forof_img.png';
+import functionImg from '../../images/function_img.png';
+import ifelseImg from '../../images/ifelse_img.png';
+import ifelseifImg from '../../images/if_elseif_else_img.png';
+import switchImg from '../../images/switchcase_img.png';
 
 const JSBasics = () => {
   return (
@@ -93,16 +100,33 @@ const JSBasics = () => {
 
       <article className="card w-75 mx-auto p-2 m-3">
         <h4>Loop For</h4>
-        <p></p>
+        <p>Loops ajudam com funções / ações que serão repetidas várias vezes.</p>
+        <img className="mx-auto m-2" width="400px" src={forImg} alt="for loop example" />
+        <img className="mx-auto m-2" width="400px" src={forInImg} alt="for loop example" />
+        <img className="mx-auto m-2" width="400px" src={forOfImg} alt="for loop example" />
+      </article>
+
+      <article className="card w-75 mx-auto p-2 m-3">
+        <h4>Funções</h4>
+        <p>Funções executam ações.</p>
+        <p>A função sum recebe 2 números e retorna a soma deles.</p>
+        <p>sum(4, 8)</p>
+        <p>// 12</p>
+
+        <img className="m-2 mx-auto" width="400px" src={functionImg} alt="for loop example" />
+      </article>
+
+      <article className="card w-75 mx-auto p-2 m-3">
+        <h4>Condicionais</h4>
+        <h6>IF ELSE</h6>
+        <img className="m-2 mx-auto" width="400px" src={ifelseImg} alt="for loop example" />
+        <img className="m-2 mx-auto" width="400px" src={ifelseifImg} alt="for loop example" />
+        <h6>SWITCH CASE</h6>
+        <img className="m-2 mx-auto" width="400px" src={switchImg} alt="for loop example" />
       </article>
 
       <p>Bloco 4 e Bloco 5</p>
-      <p>
-        História <b>ok</b>
-      </p>
-      <p>Array, objetos</p>
-      <p>loop For (in on)</p>
-      <p>Funções</p>
+
       <p>DOM</p>
     </main>
   );
